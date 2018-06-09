@@ -765,6 +765,7 @@ namespace Microsoft.PowerShell.Commands.Internal.Format
             {
                 return DefaultConsoleWidth;
             }
+
             if (columnNumber == int.MaxValue)
             {
                 if (_noConsole)
